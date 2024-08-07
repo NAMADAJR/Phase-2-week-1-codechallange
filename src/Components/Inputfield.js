@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Search from "./Search";
+
 
 const Form = () => {
   const [formData, setFormData] = useState({
@@ -41,6 +41,7 @@ const Form = () => {
   }, []);
 
   return (
+    <div className="container1">
     <div className="form">
       <div>
         <h1>Add Transaction</h1>
@@ -82,9 +83,11 @@ const Form = () => {
             <button type="submit">Add Transaction</button>
           </div>
         </form>
+        
       </div>
-
-      <Search transactions={transactions} />
+      
+      
+    </div>
     </div>
   );
 };
