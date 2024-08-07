@@ -6,7 +6,7 @@ const Transactiondisplay = () => {
   const [transaction, setTransaction] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/transactions")
+    fetch("https://phase-2-week-1-codechallange-mock-backend.vercel.app/transactions")
       .then((res) => res.json())
       .then((data) => setTransaction(data))
       .catch((error) => console.log(error));

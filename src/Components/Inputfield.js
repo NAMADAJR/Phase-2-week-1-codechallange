@@ -18,7 +18,7 @@ const Form = () => {
   const handleOnSubmit = (event) => {
     event.preventDefault();
 
-    fetch("http://localhost:3000/transactions", {
+    fetch("https://phase-2-week-1-codechallange-mock-backend.vercel.app/transactions", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
