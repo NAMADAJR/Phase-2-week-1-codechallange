@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 
-
 const Form = () => {
   const [formData, setFormData] = useState({
     category: "",
@@ -42,52 +41,49 @@ const Form = () => {
 
   return (
     <div className="container1">
-    <div className="form">
-      <div>
-        <h1>Add Transaction</h1>
+      <div className="form">
+        <div>
+          <h1>Add Transaction</h1>
+        </div>
+
+        <div>
+          <form onSubmit={handleOnSubmit}>
+            <div>
+              <input
+                type="text"
+                name="category"
+                placeholder="Category"
+                value={formData.category}
+                onChange={handleOnChange}
+              />
+            </div>
+
+            <div>
+              <input
+                type="text"
+                name="description"
+                placeholder="Description"
+                value={formData.description}
+                onChange={handleOnChange}
+              />
+            </div>
+
+            <div>
+              <input
+                type="number"
+                name="amount"
+                placeholder="Amount"
+                value={formData.amount}
+                onChange={handleOnChange}
+              />
+            </div>
+
+            <div>
+              <button type="submit">Add Transaction</button>
+            </div>
+          </form>
+        </div>
       </div>
-
-      <div>
-        <form onSubmit={handleOnSubmit}>
-          <div>
-            <input
-              type="text"
-              name="category"
-              placeholder="Category"
-              value={formData.category}
-              onChange={handleOnChange}
-            />
-          </div>
-
-          <div>
-            <input
-              type="text"
-              name="description"
-              placeholder="Description"
-              value={formData.description}
-              onChange={handleOnChange}
-            />
-          </div>
-
-          <div>
-            <input
-              type="number"
-              name="amount"
-              placeholder="Amount"
-              value={formData.amount}
-              onChange={handleOnChange}
-            />
-          </div>
-
-          <div>
-            <button type="submit">Add Transaction</button>
-          </div>
-        </form>
-        
-      </div>
-      
-      
-    </div>
     </div>
   );
 };
