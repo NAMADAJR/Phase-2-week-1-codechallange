@@ -13,7 +13,7 @@ const Search = ({ transactions }) => {
   );
 
   return (
-    <div>
+    <div className="search">
       <h2>Search Transactions by Category</h2>
       <input
         type="text"
