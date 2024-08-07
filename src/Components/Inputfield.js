@@ -7,7 +7,7 @@ const Form = () => {
     description: "",
     amount: 0,
   });
-
+ 
   // Handle changes to input fields
   const handleOnChange = (event) => {
     const name = event.target.name;
