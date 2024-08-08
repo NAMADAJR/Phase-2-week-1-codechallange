@@ -20,6 +20,7 @@ function App() {
 
   return (
     <div>
+      <h1 className="title">Bank of Flatiron</h1>
       <div>
         <Inputfield addTransaction={addTransaction} />
       </div>
