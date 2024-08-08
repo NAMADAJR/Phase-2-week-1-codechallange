@@ -9,15 +9,15 @@ const Search = ({ transactions }) => {
   };
 
   const filteredTransactions = transactions.filter((transaction) =>
-    transaction.category.toLowerCase().includes(searchQuery.toLowerCase())
+    transaction.description.toLowerCase().includes(searchQuery.toLowerCase())
   );
 
   return (
     <div className="search">
-      <h2>Search Transactions by Category</h2>
+      <h2>Search Transactions by description</h2>
       <input
         type="text"
-        placeholder="Search by category"
+        placeholder="Search by description"
         value={searchQuery}
         onChange={handleSearchChange}
       />
