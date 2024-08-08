@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# Phase 2 week 1 Code challange (Bank of Flatiron)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## By Namada Junior
 
-## Available Scripts
+## Project Description
 
-In the project directory, you can run:
+For this project, this React application displays a list of your recent bank transactions, among other feature such as adding a new trnasaction and searching for and existing transactions
+This is the link to the website:[(https://phase-2-week-1-codechallange.vercel.app/)](https://phase-2-week-1-codechallange.vercel.app/)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features of the project
+The table of transactions
+![image](images/image1.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This it the inputfield used to add new transactions
 
-### `npm test`
+![image](images/image2.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This is the search bar that is used to look for specific transactions by category.
+![image](images/image3.png)
 
-### `npm run build`
+if there is a matching category the search bar will return a results
+![images](images/image4.png)
+## System Requirements
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node 18+
+- A browser capable of running JavaScript (Chrome, Firefox, Safari, or Edge)
+- Operating System (Windows 10+, MacOS, Linux, etc.)
+- A text editor capable of running JavaScript (Visual Studio Code, React, etc.)
+- RAM >= 4GB
+- Disk space >= 1GB
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Development
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Want to contribute? Excellent, To enhance or contribute on the existing project, follow these steps:
 
-### `npm run eject`
+- Fork the repo
+- Create a new branch (git checkout -b enhance-feature)
+- Make the appropriate changes in the files
+- Add changes to reflect the changes made
+- Commit your changes (git commit -m 'enhanced feature')
+- Push to the branch (git push origin enhance-feature)
+- Create a Pull Request
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## License
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+MIT License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Copyright (c) [2024] [Namada Junior]
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-## Learn More
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
